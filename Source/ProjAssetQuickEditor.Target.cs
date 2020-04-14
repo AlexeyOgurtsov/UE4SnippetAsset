@@ -8,7 +8,7 @@ public class ProjAssetQuickEditorTarget : TargetRules
 	public ProjAssetQuickEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-
+		DefaultBuildSettings = BuildSettingsVersion.Latest;
 		ExtraModuleNames.AddRange( new string[] { "ProjAssetQuick" } );
 	}
 }

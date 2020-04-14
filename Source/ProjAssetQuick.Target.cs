@@ -8,7 +8,7 @@ public class ProjAssetQuickTarget : TargetRules
 	public ProjAssetQuickTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-
+		DefaultBuildSettings = BuildSettingsVersion.Latest;
 		ExtraModuleNames.AddRange( new string[] { "ProjAssetQuick" } );
 	}
 }
