@@ -16,7 +16,7 @@ UStaticMesh* AMyActor::LoadStaticMesh()
 {
 	UE_LOG(MyLog, Log, TEXT("LoadStaticMesh..."));
 	UE_LOG(MyLog, Log, TEXT("Not yet impl"));
-	ConstructorHelpers::FObjectFinderOptional<UStaticMesh> Finder { TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Box.Shape_Box'") };
+	ConstructorHelpers::FObjectFinderOptional<UStaticMesh> Finder { TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Cube.Shape_Cube'") };
 	if(false == Finder.Succeeded())
 	{
 		UE_LOG(MyLog, Error, TEXT("Finder: returned FAILED"));
